@@ -1,0 +1,2 @@
+--JAVA programlama denemeleri
+--PatikaDEV eğitim kiti
