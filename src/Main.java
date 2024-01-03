@@ -4,11 +4,11 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Matematik sınav puanını giriniz:");
-        int mat = scanner.nextInt();
+        int matematik = scanner.nextInt();
         System.out.println("Fizik sınav puanını giriniz:");
-        int fiz = scanner.nextInt();
+        int fizik = scanner.nextInt();
         System.out.println("Kimya sınav puanını giriniz:");
-        int kim = scanner.nextInt();
+        int kimya = scanner.nextInt();
         System.out.println("Türkçe sınav puanını giriniz:");
         int turkce = scanner.nextInt();
         System.out.println("Tarih sınav puanını giriniz:");
@@ -16,10 +16,10 @@ public class Main {
         System.out.println("Müzik sınav puanını giriniz:");
         int muzik = scanner.nextInt();
 
-        int toplam = mat + fiz + kim + turkce + tarih + muzik;
+        int toplam = matematik + fizik + kimya + turkce + tarih + muzik;
         double ortalama = toplam / 6.0;
 
-        System.out.println("Ortalama : " + ortalama);
+        System.out.println("Sonuc : " + ortalama);
 
         System.out.println((ortalama > 60) ? "Sınıfı Geçti" : "Sınıfta Kaldı");
     }
