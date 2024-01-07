@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/KDV_Hesaplama/KDV_Hesaplama.iml" filepath="$PROJECT_DIR$/KDV_Hesaplama/KDV_Hesaplama.iml" />
       <module fileurl="file://$PROJECT_DIR$/not_hesaplama.iml" filepath="$PROJECT_DIR$/not_hesaplama.iml" />
     </modules>
   </component>

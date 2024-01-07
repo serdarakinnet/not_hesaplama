@@ -6,7 +6,7 @@ public class Main {
         System.out.print("KDV'siz Fiyat: ");
         double kdvsizFiyat = scanner.nextDouble();
 
-        double kdvOrani = kdvsizFiyat >= 1000 ? 0.08 : 0.18;
+        double kdvOrani = kdvsizFiyat >= 1000 ? 0.10 : 0.18;
         double kdvliFiyat = kdvsizFiyat * (1 + kdvOrani);
         double kdvTutari = kdvliFiyat - kdvsizFiyat;
 
